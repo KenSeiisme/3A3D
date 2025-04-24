@@ -1,0 +1,115 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 1%;
+    margin: 0 1% 1% 1%;
+}
+
+.map-box {
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    height: 50%;
+    border: 10px solid #ffa31a;
+}
+
+.map-box img {
+    height: 2%;
+    width: 2%;
+}
+
+.map-box iframe {
+    margin-top: 20px;
+    width: 100%;
+    height: 465px;
+    border: none;
+    border-radius: 10px;
+}
+
+.map-box h2 {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.map-box h5 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: inline;
+}
+
+.faq {
+    padding: 20px;
+    border-radius: 10px;
+    width: 53%;
+    height: auto;
+    border: 10px solid #ffa31a;
+}
+
+.faq h2 {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.faq-content {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.faq-content h3 {
+    color: #ffa31a;
+}
+
+.faq-content p {
+    margin-bottom: 10px;
+    margin-left: 3.4%;
+}
+
+.faq-content a {
+    color: #ffa31a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.warranty {
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    height: 50%;
+    border: 10px solid #ffa31a;
+}
+
+.warranty h2 {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.warranty-content {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.warranty-content h3 {
+    color: #ffa31a;
+}
+
+.warranty-content p {
+    margin-bottom: 10px;
+    margin-left: 1.72%
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.80em;
+    font-style: italic;
+    border-top: 5px solid #ffa31a;
+}
