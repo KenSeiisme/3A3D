@@ -1,41 +1,84 @@
-.icon{
-    width: 100px;
-    height: auto;
-    margin-left: 1%;
+.nav-container {
+    align-items: center;
+    background: rgba(7, 8, 11, 0.82);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(18px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+    padding: 14px 28px;
+    position: sticky;
+    top: 0;
+    z-index: 20;
 }
 
-.nav-container{
-    display:flex;
-    align-items: center ;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 10px 20px;
+.icon {
+    width: 82px;
+}
+
+.icon img {
+    height: auto;
+    width: 100%;
 }
 
 nav ul {
+    align-items: center;
     display: flex;
-    list-style: none; /* Removes default bullet points */
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: flex-end;
+    list-style: none;
 }
 
-nav li{
-    padding: 10px 15px;
+nav li {
     position: relative;
 }
 
 nav a {
-    text-decoration: none;
-    font-size: 20px; 
-    color: white;
-    background-color: transparent;
-    border: 2px solid white;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    color: rgba(246, 247, 251, 0.86);
+    display: block;
+    font-size: 0.88rem;
+    font-weight: 800;
+    padding: 10px 13px;
     text-align: center;
-    font-weight: 600;
-    padding: 12px 20px;
-    border-radius: 5px;
-    transition-duration: 0.5s;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
-nav a:hover {
-    background-color: #ffa31a;
-    color: black;
+nav a:hover,
+nav a:focus-visible {
+    background: rgba(240, 178, 74, 0.14);
+    border-color: rgba(240, 178, 74, 0.48);
+    color: var(--accent-strong);
+    outline: none;
+    transform: translateY(-1px);
+}
+
+@media (max-width: 760px) {
+    .nav-container {
+        padding: 12px 16px;
+    }
+
+    .icon {
+        width: 68px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        display: grid;
+        gap: 6px;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    nav a {
+        font-size: 0.78rem;
+        padding: 9px 8px;
+    }
 }

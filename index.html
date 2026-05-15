@@ -2,17 +2,17 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>3A3D Dealership</title>
         <link rel="stylesheet" href="nav.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="index.css">
         <link rel="icon" href="image/3A-3D.png">
     </head>
-    
+
     <body>
         <div class="nav-container">
             <div class="icon"><a href="index.html"><img src="image/3A-3D.png" alt="3A3D logo"></a></div>
-            <br>
             <nav>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
@@ -24,16 +24,46 @@
             </nav>
         </div>
 
-        <!-- Video -->
-        <div class="main-video">
-            <video autoplay muted loop>
+        <header class="hero">
+            <video autoplay muted loop playsinline>
                 <source src="video/hero.mp4" type="video/mp4">
             </video>
-        </div>
-        
-        <!-- Recommend -->
-        <h1>Recommend <br>Initial D Series</h1>
-        <div id="car-wrapper">
+            <div class="hero-content">
+                <p class="eyebrow">Curated Performance Dealership</p>
+                <h1>3A3D Dealership</h1>
+                <p class="hero-copy">
+                    Explore a focused collection of performance icons, vintage legends, and driver-first machines presented with clear specifications and polished brand browsing.
+                </p>
+                <div class="hero-actions">
+                    <a class="button primary" href="collection.html">View Collection</a>
+                    <a class="button secondary" href="brand.html">Browse Brands</a>
+                </div>
+                <div class="hero-stats" aria-label="3A3D collection highlights">
+                    <div>
+                        <strong>16</strong>
+                        <span>Featured brands</span>
+                    </div>
+                    <div>
+                        <strong>100+</strong>
+                        <span>Vehicle profiles</span>
+                    </div>
+                    <div>
+                        <strong>2025</strong>
+                        <span>Digital showroom</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="showcase-section">
+            <div class="section-header">
+                <div>
+                    <p class="eyebrow">Editor's picks</p>
+                    <h2>Recommended Initial D Series</h2>
+                </div>
+                <p>Start with the cars enthusiasts recognize instantly. Hover each model card to compare its core specifications.</p>
+            </div>
+            <div id="car-wrapper">
             <div class="car">
                 <img src="car_vector_image/Toyota_AE86.png" alt="Toyota AE86">
                 <h2>Toyota AE86</h2>
@@ -237,10 +267,11 @@
                     </table>
                 </div>
             </div>
-        </div>
+            </div>
+        </section>
 
         <footer>
-            <p>Copyright © 2025 3A3D Dealership. All right reserved.</p>
+            <p>Copyright &copy; 2025 3A3D Dealership. All rights reserved.</p>
         </footer>
-    </body> 
+    </body>
 </html>
