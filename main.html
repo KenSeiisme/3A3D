@@ -2,20 +2,22 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="3A3D Dealership - Explore our featured Initial D series car collection with full specifications.">
         <title>3A3D Dealership</title>
         <link rel="stylesheet" href="nav.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="main.css">
         <link rel="icon" href="image/3A-3D.png">
     </head>
-    
+
     <body>
         <div class="nav-container">
             <div class="icon"><a href="main.html"><img src="image/3A-3D.png" alt="3A3D logo"></a></div>
             <br>
-            <nav>
+            <nav aria-label="Main navigation">
                 <ul>
-                    <li><a href="main.html">HOME</a></li>
+                    <li><a href="main.html" aria-current="page">HOME</a></li>
                     <li><a href="brand.html">BRAND</a></li>
                     <li><a href="collection.html">COLLECTION</a></li>
                     <li><a href="about.html">ABOUT</a></li>
@@ -26,16 +28,17 @@
 
         <!-- Video -->
         <div class="main-video">
-            <video autoplay muted loop>
+            <video autoplay muted loop playsinline preload="auto" aria-hidden="true" tabindex="-1">
                 <source src="video/hero.mp4" type="video/mp4">
+                Your browser does not support the video tag.
             </video>
         </div>
-        
+
         <!-- Recommend -->
-        <h1>Recommend <br>Initial D Series</h1>
+        <h1>Recommend<br>Initial D Series</h1>
         <div id="car-wrapper">
-            <div class="car">
-                <img src="car_vector_image/Toyota_AE86.png" alt="Toyota AE86">
+            <div class="car" tabindex="0">
+                <img src="car_vector_image/Toyota_AE86.png" alt="Toyota AE86" loading="lazy" decoding="async">
                 <h2>Toyota AE86</h2>
                 <div class="car-info">
                     <table>
@@ -63,8 +66,8 @@
                     </table>
                 </div>
             </div>
-            <div class="car">
-                <img src="car_vector_image/Mazda_RX-7.png" alt="Mazda RX-7">
+            <div class="car" tabindex="0">
+                <img src="car_vector_image/Mazda_RX-7.png" alt="Mazda RX-7" loading="lazy" decoding="async">
                 <h2>Mazda RX-7</h2>
                 <div class="car-info">
                     <table>
@@ -92,8 +95,8 @@
                     </table>
                 </div>
             </div>
-            <div class="car">
-                <img src="car_vector_image/Toyota_MR2.png" alt="Toyota MR2">
+            <div class="car" tabindex="0">
+                <img src="car_vector_image/Toyota_MR2.png" alt="Toyota MR2" loading="lazy" decoding="async">
                 <h2>Toyota MR2</h2>
                 <div class="car-info">
                     <table>
@@ -121,8 +124,8 @@
                     </table>
                 </div>
             </div>
-            <div class="car">
-                <img src="car_vector_image/Nissan_GT-R_R32.png" alt="Nissan GT-R R32">
+            <div class="car" tabindex="0">
+                <img src="car_vector_image/Nissan_GT-R_R32.png" alt="Nissan GT-R R32" loading="lazy" decoding="async">
                 <h2>Nissan GT-R R32</h2>
                 <div class="car-info">
                     <table>
@@ -150,8 +153,8 @@
                     </table>
                 </div>
             </div>
-            <div class="car">
-                <img src="car_vector_image/Honda_S2000_09.png" alt="Honda S2000">
+            <div class="car" tabindex="0">
+                <img src="car_vector_image/Honda_S2000_09.png" alt="Honda S2000" loading="lazy" decoding="async">
                 <h2>Honda S2000</h2>
                 <div class="car-info">
                     <table>
@@ -179,8 +182,8 @@
                     </table>
                 </div>
             </div>
-            <div class="car">
-                <img src="car_vector_image/Mitsubishi_Lancer_Evolution_X.png" alt="Mitsubishi Lancer Evolution X">
+            <div class="car" tabindex="0">
+                <img src="car_vector_image/Mitsubishi_Lancer_Evolution_X.png" alt="Mitsubishi Lancer Evolution X" loading="lazy" decoding="async">
                 <h2>Mitsubishi Lancer Evolution X</h2>
                 <div class="car-info">
                     <table>
@@ -208,8 +211,8 @@
                     </table>
                 </div>
             </div>
-            <div class="car">
-                <img src="car_vector_image/Mazda_Miata.png" alt="Mazda Miata">
+            <div class="car" tabindex="0">
+                <img src="car_vector_image/Mazda_Miata.png" alt="Mazda Miata" loading="lazy" decoding="async">
                 <h2>Mazda Miata</h2>
                 <div class="car-info">
                     <table>
@@ -240,7 +243,7 @@
         </div>
 
         <footer>
-            <p>Copyright © 2025 3A3D Dealership. All right reserved.</p>
+            <p>Copyright © 2025 3A3D Dealership. All rights reserved.</p>
         </footer>
-    </body> 
+    </body>
 </html>

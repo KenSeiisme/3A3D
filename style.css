@@ -1,12 +1,98 @@
+/* ===== Global Reset ===== */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'SF Pro Display', 'SF Pro Icons', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 
-body{
+/* ===== Smooth Scroll ===== */
+html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+
+/* ===== Body ===== */
+body {
     background-color: #000000;
+    color: #ffffff;
     width: auto;
+    min-height: 100vh;
     height: auto;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+/* ===== Images ===== */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* ===== Links ===== */
+a {
+    color: inherit;
+}
+
+/* ===== Text Selection ===== */
+::selection {
+    background-color: #ffa31a;
+    color: #000000;
+}
+
+::-moz-selection {
+    background-color: #ffa31a;
+    color: #000000;
+}
+
+/* ===== Focus Visible ===== */
+:focus-visible {
+    outline: 2px solid #ffa31a;
+    outline-offset: 3px;
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111111;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffa31a;
+    border-radius: 6px;
+    border: 2px solid #111111;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffb84d;
+}
+
+/* Firefox Scrollbar */
+html {
+    scrollbar-color: #ffa31a #111111;
+    scrollbar-width: thin;
+}
+
+/* ===== Reduced Motion ===== */
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
 }

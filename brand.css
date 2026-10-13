@@ -1,60 +1,183 @@
-h1{
-    color: rgb(255, 255, 255);
-    margin-left: 2.5%;
-    font-size: 60px;
-    font-weight: 600;
+/* ===== Page Titles ===== */
+h1 {
+    color: #ffffff;
+    margin: 40px 2.5% 30px;
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+    position: relative;
+    padding-bottom: 20px;
 }
 
-h3{
-    color: rgb(255, 255, 255);
-    margin-left: 2.5%;
-    text-align: left;
-    font-size: 50px;
-    font-weight: 600;
+h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 4px;
+    background: #ffa31a;
+    border-radius: 2px;
 }
 
+h3 {
+    color: #ffffff;
+    margin: 20px 2.5% 25px;
+    font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    position: relative;
+    padding-bottom: 14px;
+}
+
+h3::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 4px;
+    background: #ffa31a;
+    border-radius: 2px;
+}
+
+/* ===== Brand Grid ===== */
 #brand-wrapper {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* Space between boxes */
-    justify-content: center; /* Center the boxes */
-    margin: 20px 0;
+    gap: 40px;
+    justify-content: center;
+    margin: 30px 2.5% 60px;
 }
 
+/* ===== Brand Card ===== */
 .brand {
     width: 320px;
+    max-width: 100%;
     padding: 20px;
-    background-color: #f9f9f9;
-    border: 10px solid #ffa31a;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(160deg, #0a0a0a 0%, #111111 100%);
+    border: 2px solid #ffa31a;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
     text-align: center;
-    margin-top: 10px;
-    margin: 0 1% 0 1%;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.brand:hover,
+.brand:focus-within {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 50px rgba(255, 163, 26, 0.25);
+}
+
+.brand a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
 }
 
 .brand img {
     width: 100%;
-    height: auto;
-    border-radius: 10px;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 14px;
+    background-color: #f0f0f0;
+    padding: 16px;
+    transition: transform 0.4s ease;
+}
+
+.brand:hover img,
+.brand:focus-within img {
+    transform: scale(1.06);
 }
 
 .brand h2 {
-    font-size: 20px;
-    color: #333;
-    margin-top: 10px;
-}
-
-a {
-    text-decoration: none;
-}
-
-footer{
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
+    font-size: 1.15rem;
+    color: #ffffff;
+    margin-top: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
     text-align: center;
-    font-size: .80em;
+    transition: color 0.3s ease;
+}
+
+.brand:hover h2,
+.brand:focus-within h2 {
+    color: #ffa31a;
+}
+
+/* ===== Link Focus ===== */
+.brand a:focus-visible {
+    outline: 2px solid #ffa31a;
+    outline-offset: 4px;
+    border-radius: 8px;
+}
+
+/* ===== Footer ===== */
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 14px 0;
+    text-align: center;
+    font-size: 0.8em;
     font-style: italic;
     border-top: 5px solid #ffa31a;
+    margin-top: 40px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+    h1,
+    h3 {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    #brand-wrapper {
+        gap: 25px;
+        margin: 20px 4% 40px;
+    }
+
+    .brand {
+        width: 45%;
+        padding: 16px;
+    }
+
+    .brand img {
+        height: 130px;
+        padding: 12px;
+    }
+
+    .brand h2 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    .brand {
+        width: 90%;
+    }
+
+    .brand img {
+        height: 150px;
+    }
+
+    .brand h2 {
+        font-size: 1.05rem;
+    }
 }

@@ -2,81 +2,102 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="3A3D Dealership - Meet the founder and learn about our mission, vision, and values.">
         <title>About</title>
         <link rel="stylesheet" href="nav.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="about.css">
         <link rel="icon" href="/image/3A-3D.png">
     </head>
-    
-    <body> 
+
+    <body>
         <div class="nav-container">
             <div class="icon"><a href="main.html"><img src="image/3A-3D.png" alt="3A3D logo"></a></div>
             <br>
-            <nav>
+            <nav aria-label="Main navigation">
                 <ul>
                     <li><a href="main.html">HOME</a></li>
                     <li><a href="brand.html">BRAND</a></li>
                     <li><a href="collection.html">COLLECTION</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="about.html" aria-current="page">ABOUT</a></li>
                     <li><a href="support.html">SUPPORT</a></li>
                 </ul>
             </nav>
         </div>
-        
-        <h1>About</h1><br>
-        <h3>The Founder of 3A3D</h3><br>
-        <div id="container">
-            <div class="member">
-                <img src="image/jieming.jpg" alt="Sher Jie Ming">
-                <h2>SHER JIE MING</h2>
-                <div class="member-info">
-                    <p>
-                        Jie Ming is the <b>visionary behind 3A3D</b>.<br>With a passion for innovation and a deep understanding of the automotive industry, he has been instrumental in shaping the company's mission and values.
-                    </p>
-                </div>
-            </div>
-            <div class="member">
-                <img src="image/haozheng.jpg" alt="Lee Hao Zheng">
-                <h2>LEE HAO ZHENG</h2>
-                <div class="member-info">
-                    <p>
-                        Hao Zheng is the <b>technical mastermind of 3A3D</b>.<br>His expertise in engineering and technology has driven the development of cutting-edge solutions for the dealership's operations.
-                    </p>
-                </div>
-            </div>
-            <div class="member">
-                <img src="image/zison.jpg" alt="Lim Zison">
-                <h2>LIM ZISON</h2>
-                <div class="member-info">
-                    <p>
-                        Zison is the <b>creative force behind 3A3D</b>.<br>With a keen eye for design and branding, he ensures that the company's image resonates with customers worldwide.
-                    </p>
-                </div>
-            </div>
-            <div class="intro">
-                <dl>
-                    <dt>Our Mission</dt>
-                        <dd>At 3A3D, our mission is to revolutionize the automotive dealership experience by combining innovation, quality, and customer satisfaction. We aim to provide a seamless and enjoyable journey for every car enthusiast.</dd>
-                    
-                    <dt>Vision</dt>
-                    <dd>We envision a future where 3A3D becomes a global leader in the automotive industry, setting new standards for excellence and sustainability.</dd>
-                    
-                    <dt>Values</dt>
-                    <dd>
+
+        <h1>About</h1>
+
+        <div class="intro">
+            <dl>
+                <dt>Our Mission</dt>
+                <dd>At 3A3D, our mission is to revolutionize the automotive dealership experience by combining innovation, quality, and customer satisfaction. We aim to provide a seamless and enjoyable journey for every car enthusiast.</dd>
+
+                <dt>Vision</dt>
+                <dd>We envision a future where 3A3D becomes a global leader in the automotive industry, setting new standards for excellence and sustainability.</dd>
+
+                <dt>Values</dt>
+                <dd>
                     <ul>
                         <li><strong>Innovation:</strong> Continuously pushing the boundaries of technology and creativity.</li>
                         <li><strong>Quality:</strong> Delivering the highest standards in every aspect of our business.</li>
                         <li><strong>Customer Focus:</strong> Putting our customers at the heart of everything we do.</li>
                         <li><strong>Sustainability:</strong> Committed to environmentally friendly practices and solutions.</li>
                     </ul>
-                    </dd>
-                </dl>
+                </dd>
+            </dl>
+        </div>
+
+        <h3>The Founder of 3A3D</h3>
+
+        <div id="container">
+            <div class="member" tabindex="0">
+                <img src="image/profile_picture.png" alt="KenSei" loading="lazy" decoding="async">
+                <h2>KenSei</h2>
+                <div class="member-info">
+                    <div class="social-links">
+                        <!-- Website -->
+                        <a href="https://kensei-eta.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Personal Website">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <circle cx="12" cy="12" r="9"></circle>
+                                <path d="M3 12h18"></path>
+                                <path d="M12 3a14 14 0 0 1 0 18a14 14 0 0 1 0-18Z"></path>
+                            </svg>
+                        </a>
+                        <!-- GitHub -->
+                        <a href="https://github.com/KenSeiisme" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M12 .7a11.3 11.3 0 0 0-3.6 22c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.5-1.4-1.3-1.8-1.3-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.9 1.3 1.9 1.3 1.1 1.8 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.4-5.5-6a4.7 4.7 0 0 1 1.3-3.3c-.1-.3-.6-1.6.1-3.3 0 0 1.1-.4 3.6 1.3a12.3 12.3 0 0 1 6.5 0c2.5-1.7 3.6-1.3 3.6-1.3.7 1.7.2 3 .1 3.3a4.7 4.7 0 0 1 1.3 3.3c0 4.6-2.8 5.7-5.5 6 .4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6A11.3 11.3 0 0 0 12 .7Z"/>
+                            </svg>
+                        </a>
+                        <!-- Email -->
+                        <a href="mailto:haozheng00910@gmail.com" aria-label="Email">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                                <path d="m3 7 9 6 9-6"></path>
+                            </svg>
+                        </a>
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/haozheng00910/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                                <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                                <circle cx="12" cy="12" r="4"></circle>
+                                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"></circle>
+                            </svg>
+                        </a>
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/leehaozheng" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.15 1.45-2.15 2.95v5.66H9.33V8.98h3.42v1.57h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.27 2.38 4.27 5.47v6.28ZM5.32 7.41a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14Zm-1.78 13.04h3.57V8.98H3.54v11.47Z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-        
+
         <footer>
-            <p>Copyright © 2025 3A3D Dealership. All right reserved</p>
+            <p>Copyright © 2025 3A3D Dealership. All rights reserved.</p>
         </footer>
     </body>
 </html>
