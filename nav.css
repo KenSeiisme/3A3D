@@ -24,6 +24,8 @@
     flex-wrap: wrap;
     padding: 10px 20px;
     gap: 10px;
+    position: relative;
+    z-index: 10;
 }
 
 /* ===== Nav List ===== */
