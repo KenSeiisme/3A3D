@@ -1,0 +1,20 @@
+<section class="container catalog-section" data-catalog data-fixed-brand="$fixed_brand">
+  $filters
+  <noscript>
+    <p class="notice">
+      All vehicles and specifications are available below. Enable JavaScript to search and
+      filter.
+    </p>
+  </noscript>
+  <div class="results-bar">
+    <p data-count role="status" aria-live="polite">$count vehicles to discover</p>
+    <span>Find your next obsession.</span>
+  </div>
+  <div class="car-grid" data-grid>$cards</div>
+  <div class="empty-state" data-empty hidden>
+    <span aria-hidden="true">↗</span>
+    <h2>No vehicles found.</h2>
+    <p>Try another model name or clear your filters.</p>
+    <button class="button" data-clear type="button">Clear filters</button>
+  </div>
+</section>

@@ -1,0 +1,39 @@
+<form class="filter-bar" role="search" aria-label="Filter vehicles" hidden>
+  <label class="search-field">
+    Search vehicles
+    <input
+      type="search"
+      name="q"
+      placeholder="Search a model or brand…"
+      autocomplete="off"
+    />
+  </label>
+  $brand_field
+  <label>
+    Drivetrain
+    <select name="drive" aria-label="Drivetrain">
+      <option value="">All drivetrains</option>
+      <option value="rwd">Rear-wheel drive</option>
+      <option value="fwd">Front-wheel drive</option>
+      <option value="awd">All-wheel drive</option>
+      <option value="4wd">Four-wheel drive</option>
+    </select>
+  </label>
+  <label>
+    Collection
+    <select name="topic" aria-label="Collection">
+      <option value="">All vehicles</option>
+      <option value="classic">Classics</option>
+      <option value="initial-d">Initial D</option>
+    </select>
+  </label>
+  <label>
+    Sort by
+    <select name="sort" aria-label="Sort by">
+      <option value="">Curated order</option>
+      <option value="name">Name A–Z</option>
+      <option value="power">Power: high to low</option>
+    </select>
+  </label>
+  <button class="reset-button" type="reset">Clear filters</button>
+</form>

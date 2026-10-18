@@ -1,0 +1,40 @@
+<article
+  class="car-card"
+  data-car
+  data-name="$name"
+  data-brand="$brand_id"
+  data-drive="$drive_id"
+  data-topics="$topics"
+  data-power="$power_value"
+>
+  <div class="car-stage">
+    <span class="card-tag">$badge</span>
+    <img
+      src="$image"
+      width="$width"
+      height="$height"
+      alt="$name"
+      loading="lazy"
+      decoding="async"
+    />
+  </div>
+  <div class="card-body">
+    <p class="eyebrow">$brand_name</p>
+    <h3>$name</h3>
+    <div class="quick-specs">
+      <span>$power_label</span>
+      <span>$drive_label</span>
+    </div>
+    <details class="specs">
+      <summary>
+        <span class="closed-label">View specs</span>
+        <span class="open-label">Hide specs</span>
+        <span aria-hidden="true">+</span>
+      </summary>
+      <dl>$spec_rows</dl>
+      <p class="spec-note">
+        Reference specifications from the original project. Variants may differ.
+      </p>
+    </details>
+  </div>
+</article>

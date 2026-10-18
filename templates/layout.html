@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>$title | 3A3D</title>
+    <meta name="description" content="$description" />
+    <meta name="theme-color" content="#090909" />
+    <meta property="og:title" content="$title | 3A3D" />
+    <meta property="og:description" content="$description" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://3a3d.vercel.app/assets/hero-poster.jpg" />
+    <link rel="icon" href="${prefix}image/3A-3D.png" />
+    $stylesheets
+    <script src="${prefix}project.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="${prefix}index.html" aria-label="3A3D home">
+          <img src="${prefix}image/3A-3D.png" width="88" height="50" alt="3A3D" />
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-controls="main-nav"
+          aria-expanded="false"
+          hidden
+        >
+          Menu
+          <span aria-hidden="true">☰</span>
+        </button>
+        <nav id="main-nav" aria-label="Main navigation">$navigation</nav>
+        <span class="header-note">
+          <i></i>
+          An automotive showcase
+        </span>
+      </div>
+    </header>
+    <main id="main">$body</main>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top">
+          <div>
+            <a class="logo footer-logo" href="${prefix}index.html" aria-label="3A3D home">
+              <img src="${prefix}image/3A-3D.png" width="88" height="50" alt="3A3D" />
+            </a>
+            <p>For the love of the drive.</p>
+          </div>
+          <nav aria-label="Footer navigation">$navigation</nav>
+          <a
+            class="text-link"
+            href="https://kensei-eta.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Created by KenSei
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2026 3A3D · Student portfolio project</p>
+          <p>A showcase of automotive design. No vehicle sales or bookings.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

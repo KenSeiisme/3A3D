@@ -1,0 +1,8 @@
+node_modules/
+_qa/
+assets/
+car_vector_image/
+logo_image/
+image/
+video/
+pnpm-lock.yaml

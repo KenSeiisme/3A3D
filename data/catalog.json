@@ -258,9 +258,7 @@
       },
       "power": 33,
       "drive": "fwd",
-      "topics": [
-        "classic"
-      ],
+      "topics": ["classic"],
       "width": 840,
       "height": 420
     },
@@ -746,9 +744,7 @@
       },
       "power": 65,
       "drive": "rwd",
-      "topics": [
-        "classic"
-      ],
+      "topics": ["classic"],
       "width": 840,
       "height": 381
     },
@@ -1270,9 +1266,7 @@
       },
       "power": 128,
       "drive": "rwd",
-      "topics": [
-        "classic"
-      ],
+      "topics": ["classic"],
       "width": 840,
       "height": 367
     },
@@ -1614,9 +1608,7 @@
       },
       "power": 220,
       "drive": "rwd",
-      "topics": [
-        "classic"
-      ],
+      "topics": ["classic"],
       "width": 840,
       "height": 313
     },
@@ -1742,9 +1734,7 @@
       },
       "power": 128,
       "drive": "rwd",
-      "topics": [
-        "initial-d"
-      ],
+      "topics": ["initial-d"],
       "width": 840,
       "height": 293
     },
@@ -1834,9 +1824,7 @@
       },
       "power": 44,
       "drive": "rwd",
-      "topics": [
-        "classic"
-      ],
+      "topics": ["classic"],
       "width": 840,
       "height": 343
     },
@@ -1962,9 +1950,7 @@
       },
       "power": 40,
       "drive": "rwd",
-      "topics": [
-        "classic"
-      ],
+      "topics": ["classic"],
       "width": 840,
       "height": 351
     },
@@ -2090,9 +2076,7 @@
       },
       "power": 50,
       "drive": "rwd",
-      "topics": [
-        "classic"
-      ],
+      "topics": ["classic"],
       "width": 840,
       "height": 385
     },
@@ -2106,9 +2090,7 @@
       },
       "power": null,
       "drive": "other",
-      "topics": [
-        "special"
-      ],
+      "topics": ["special"],
       "width": 840,
       "height": 470
     }
@@ -2117,9 +2099,7 @@
   "editorialSources": [
     {
       "topic": "initial-d",
-      "cars": [
-        "toyota-ae86"
-      ],
+      "cars": ["toyota-ae86"],
       "url": "https://licensing.kodansha.com/title/initial-d/",
       "note": "Confirms the AE86 association; catalogue specifications do not represent a screen-used or modified car."
     }

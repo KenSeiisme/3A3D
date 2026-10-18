@@ -16,10 +16,16 @@
       menu.setAttribute('aria-expanded', String(open));
       nav.hidden = !open;
     });
-    document.addEventListener('keydown', event => {
-      if (event.key === 'Escape' && mobile.matches && !nav.hidden) { closeMenu(); menu.focus(); }
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && mobile.matches && !nav.hidden) {
+        closeMenu();
+        menu.focus();
+      }
     });
-    mobile.addEventListener('change', () => { menu.hidden = !mobile.matches; closeMenu(); });
+    mobile.addEventListener('change', () => {
+      menu.hidden = !mobile.matches;
+      closeMenu();
+    });
   }
   const catalog = document.querySelector('[data-catalog]');
   if (catalog) {
@@ -29,59 +35,94 @@
     const fixedBrand = catalog.dataset.fixedBrand;
     const keys = ['q', 'brand', 'drive', 'topic', 'sort'];
     form.hidden = false;
-    const field = key => form.elements.namedItem(key);
+    const field = (key) => form.elements.namedItem(key);
     function readURL() {
       const params = new URLSearchParams(location.search);
       for (const key of keys) {
         const control = field(key);
         if (control) {
           control.value = params.get(key) || '';
-          if (control.tagName === 'SELECT' && control.selectedIndex < 0) control.value = '';
+          if (control.tagName === 'SELECT' && control.selectedIndex < 0)
+            control.value = '';
         }
       }
       apply(false);
     }
     function apply(updateURL = true) {
-      const values = Object.fromEntries(keys.map(key => [key, field(key)?.value || '']));
+      const values = Object.fromEntries(
+        keys.map((key) => [key, field(key)?.value || '']),
+      );
       const search = values.q.trim().toLocaleLowerCase();
       const brand = fixedBrand || values.brand;
       let count = 0;
       const ordered = [...cards];
-      if (values.sort === 'name') ordered.sort((a,b) => a.dataset.name.localeCompare(b.dataset.name, 'en'));
-      if (values.sort === 'power') ordered.sort((a,b) => (b.dataset.power === '' ? -Infinity : Number(b.dataset.power)) - (a.dataset.power === '' ? -Infinity : Number(a.dataset.power)));
+      if (values.sort === 'name')
+        ordered.sort((a, b) => a.dataset.name.localeCompare(b.dataset.name, 'en'));
+      if (values.sort === 'power')
+        ordered.sort(
+          (a, b) =>
+            (b.dataset.power === '' ? -Infinity : Number(b.dataset.power)) -
+            (a.dataset.power === '' ? -Infinity : Number(a.dataset.power)),
+        );
       for (const card of ordered) {
         const data = card.dataset;
         const searchable = (data.name + ' ' + data.brand).toLocaleLowerCase();
-        const visible = (!search || searchable.includes(search)) && (!brand || data.brand === brand) && (!values.drive || data.drive === values.drive) && (!values.topic || data.topics.split(' ').includes(values.topic));
+        const visible =
+          (!search || searchable.includes(search)) &&
+          (!brand || data.brand === brand) &&
+          (!values.drive || data.drive === values.drive) &&
+          (!values.topic || data.topics.split(' ').includes(values.topic));
         card.hidden = !visible;
         if (visible) count++;
         grid.append(card);
       }
-      catalog.querySelector('[data-count]').textContent = `${count} ${count === 1 ? 'vehicle' : 'vehicles'} to discover`;
+      catalog.querySelector('[data-count]').textContent =
+        `${count} ${count === 1 ? 'vehicle' : 'vehicles'} to discover`;
       catalog.querySelector('[data-empty]').hidden = count !== 0;
       grid.hidden = count === 0;
-      document.querySelectorAll('.topic-links a').forEach(link => {
+      document.querySelectorAll('.topic-links a').forEach((link) => {
         const topic = new URL(link.href).searchParams.get('topic') || '';
-        if (values.topic === topic) link.setAttribute('aria-current', 'true'); else link.removeAttribute('aria-current');
+        if (values.topic === topic) link.setAttribute('aria-current', 'true');
+        else link.removeAttribute('aria-current');
       });
       if (updateURL) {
         const url = new URL(location.href);
         for (const key of keys) {
           url.searchParams.delete(key);
-          if (values[key] && !(fixedBrand && key === 'brand')) url.searchParams.set(key, values[key]);
+          if (values[key] && !(fixedBrand && key === 'brand'))
+            url.searchParams.set(key, values[key]);
         }
         if (url.href !== location.href) history.pushState(null, '', url);
       }
     }
     let typing;
-    form.addEventListener('input', event => {
-      if (event.target.name === 'q') { clearTimeout(typing); typing = setTimeout(() => apply(), 250); }
+    form.addEventListener('input', (event) => {
+      if (event.target.name === 'q') {
+        clearTimeout(typing);
+        typing = setTimeout(() => apply(), 250);
+      }
     });
-    form.addEventListener('change', () => { clearTimeout(typing); apply(); });
-    form.addEventListener('submit', event => { event.preventDefault(); clearTimeout(typing); apply(); });
-    form.addEventListener('reset', () => { clearTimeout(typing); setTimeout(() => apply(), 0); });
-    catalog.querySelector('[data-clear]').addEventListener('click', () => { form.reset(); field('q').focus(); });
-    window.addEventListener('popstate', () => { clearTimeout(typing); readURL(); });
+    form.addEventListener('change', () => {
+      clearTimeout(typing);
+      apply();
+    });
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      clearTimeout(typing);
+      apply();
+    });
+    form.addEventListener('reset', () => {
+      clearTimeout(typing);
+      setTimeout(() => apply(), 0);
+    });
+    catalog.querySelector('[data-clear]').addEventListener('click', () => {
+      form.reset();
+      field('q').focus();
+    });
+    window.addEventListener('popstate', () => {
+      clearTimeout(typing);
+      readURL();
+    });
     readURL();
   }
   const video = document.querySelector('.hero-video');
@@ -94,24 +135,47 @@
     function display(playing) {
       video.classList.toggle('is-playing', playing);
       toggle.setAttribute('aria-pressed', String(playing));
-      toggle.textContent = playing ? 'Pause film Ⅱ' : failed ? 'Film unavailable' : 'Play film ▷';
+      toggle.textContent = playing
+        ? 'Pause film Ⅱ'
+        : failed
+          ? 'Film unavailable'
+          : 'Play film ▷';
     }
     async function play() {
       if (failed) return;
-      if (!video.getAttribute('src')) { video.src = video.dataset.src; video.load(); }
-      try { await video.play(); } catch { display(false); }
+      if (!video.getAttribute('src')) {
+        video.src = video.dataset.src;
+        video.load();
+      }
+      try {
+        await video.play();
+      } catch {
+        display(false);
+      }
     }
-    toggle.addEventListener('click', () => { if (video.paused) play(); else video.pause(); });
+    toggle.addEventListener('click', () => {
+      if (video.paused) play();
+      else video.pause();
+    });
     video.addEventListener('playing', () => display(true));
     video.addEventListener('pause', () => display(false));
     video.addEventListener('error', () => {
-      failed = true; display(false); toggle.disabled = true;
-      status.textContent = 'The film could not load. You can still explore the full collection.';
+      failed = true;
+      display(false);
+      toggle.disabled = true;
+      status.textContent =
+        'The film could not load. You can still explore the full collection.';
       status.hidden = false;
     });
-    reduced.addEventListener('change', () => { if (reduced.matches) video.pause(); });
-    mobile.addEventListener('change', () => { if (mobile.matches) video.pause(); });
-    document.addEventListener('visibilitychange', () => { if (document.hidden) video.pause(); });
+    reduced.addEventListener('change', () => {
+      if (reduced.matches) video.pause();
+    });
+    mobile.addEventListener('change', () => {
+      if (mobile.matches) video.pause();
+    });
+    document.addEventListener('visibilitychange', () => {
+      if (document.hidden) video.pause();
+    });
     if (!mobile.matches && !reduced.matches && !navigator.connection?.saveData) play();
   }
 })();

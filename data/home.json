@@ -1,0 +1,5 @@
+{
+  "featuredCars": ["toyota-ae86", "mazda-rx-7", "nissan-gt-r-r32"],
+  "featuredBrands": ["toyota", "porsche", "ferrari", "nissan"],
+  "spotlightCar": "toyota-ae86"
+}
