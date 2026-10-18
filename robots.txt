@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://3a3d.vercel.app/sitemap.xml
