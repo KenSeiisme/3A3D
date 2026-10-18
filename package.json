@@ -1,0 +1,12 @@
+{
+  "name": "3a3d-showcase",
+  "private": true,
+  "version": "2.0.0",
+  "description": "Static automotive portfolio. Dependencies are used for development only.",
+  "scripts": {
+    "build": "python scripts/build.py",
+    "test": "node scripts/verify.cjs",
+    "preview": "python -m http.server 8766 --bind 127.0.0.1"
+  },
+  "devDependencies": {"playwright": "1.62.1", "sharp": "0.35.5"}
+}

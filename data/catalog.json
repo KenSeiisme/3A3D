@@ -1,0 +1,2127 @@
+{
+  "brands": [
+    {
+      "id": "audi",
+      "name": "Audi",
+      "logo": "assets/logos/audi.webp"
+    },
+    {
+      "id": "chrysler",
+      "name": "Chrysler",
+      "logo": "assets/logos/chrysler.webp"
+    },
+    {
+      "id": "citroen",
+      "name": "Citroen",
+      "logo": "assets/logos/citroen.webp"
+    },
+    {
+      "id": "dodge",
+      "name": "Dodge",
+      "logo": "assets/logos/dodge.webp"
+    },
+    {
+      "id": "ferrari",
+      "name": "Ferrari",
+      "logo": "assets/logos/ferrari.webp"
+    },
+    {
+      "id": "ford",
+      "name": "Ford",
+      "logo": "assets/logos/ford.webp"
+    },
+    {
+      "id": "honda",
+      "name": "Honda",
+      "logo": "assets/logos/honda.webp"
+    },
+    {
+      "id": "lamborghini",
+      "name": "Lamborghini",
+      "logo": "assets/logos/lamborghini.webp"
+    },
+    {
+      "id": "landrover",
+      "name": "Land Rover",
+      "logo": "assets/logos/landrover.webp"
+    },
+    {
+      "id": "mazda",
+      "name": "Mazda",
+      "logo": "assets/logos/mazda.webp"
+    },
+    {
+      "id": "mitsubishi",
+      "name": "Mitsubishi",
+      "logo": "assets/logos/mitsubishi.webp"
+    },
+    {
+      "id": "nissan",
+      "name": "Nissan",
+      "logo": "assets/logos/nissan.webp"
+    },
+    {
+      "id": "porsche",
+      "name": "Porsche",
+      "logo": "assets/logos/porsche.webp"
+    },
+    {
+      "id": "toyota",
+      "name": "Toyota",
+      "logo": "assets/logos/toyota.webp"
+    },
+    {
+      "id": "vauxhall",
+      "name": "Vauxhall",
+      "logo": "assets/logos/vauxhall.webp"
+    },
+    {
+      "id": "volkswagen",
+      "name": "Volkswagen",
+      "logo": "assets/logos/volkswagen.webp"
+    }
+  ],
+  "cars": [
+    {
+      "id": "audi-r8-v10-plus",
+      "name": "Audi R8 V10 Plus",
+      "brand": "audi",
+      "image": "assets/cars/audi-r8-v10-plus.webp",
+      "specs": {
+        "Engine": "5.2L Naturally-Aspirated V10",
+        "Power": "542 bhp (404 kW)",
+        "Torque": "398 lb⋅ft (540 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "3682 lbs (1670 kg)"
+      },
+      "power": 542,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 267
+    },
+    {
+      "id": "audi-rs4",
+      "name": "Audi RS4",
+      "brand": "audi",
+      "image": "assets/cars/audi-rs4.webp",
+      "specs": {
+        "Engine": "4.2L Naturally-Aspirated V8",
+        "Power": "420 bhp (313 kW)",
+        "Torque": "317 lb⋅ft (430 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "3638 lbs (1650 kg)"
+      },
+      "power": 420,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 299
+    },
+    {
+      "id": "audi-rs4-avant",
+      "name": "Audi RS4 Avant",
+      "brand": "audi",
+      "image": "assets/cars/audi-rs4-avant.webp",
+      "specs": {
+        "Engine": "2.7L Twin-Turbocharged V6",
+        "Power": "375 bhp (280 kW)",
+        "Torque": "324 lb⋅ft (439 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "3571 lbs (1620 kg)"
+      },
+      "power": 375,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 315
+    },
+    {
+      "id": "audi-rs6",
+      "name": "Audi RS6",
+      "brand": "audi",
+      "image": "assets/cars/audi-rs6.webp",
+      "specs": {
+        "Engine": "4.2L Twin-Turbocharged V8",
+        "Power": "450 bhp (336 kW)",
+        "Torque": "415 lb⋅ft (563 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "4024 lbs (1825 kg)"
+      },
+      "power": 450,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 278
+    },
+    {
+      "id": "audi-sport-quattro",
+      "name": "Audi Sport Quattro",
+      "brand": "audi",
+      "image": "assets/cars/audi-sport-quattro.webp",
+      "specs": {
+        "Engine": "2.1L Turbocharged I5",
+        "Power": "306 bhp (228 kW)",
+        "Torque": "258 lb⋅ft (350 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "2807 lbs (1273 kg)"
+      },
+      "power": 306,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 292
+    },
+    {
+      "id": "chrysler-300",
+      "name": "Chrysler 300",
+      "brand": "chrysler",
+      "image": "assets/cars/chrysler-300.webp",
+      "specs": {
+        "Engine": "6.4L Naturally-Aspirated V8",
+        "Power": "465 bhp (347 kW)",
+        "Torque": "465 lb⋅ft (630 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "4365 lbs (1980 kg)"
+      },
+      "power": 465,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 277
+    },
+    {
+      "id": "chrysler-crossfire-srt6",
+      "name": "Chrysler Crossfire SRT6",
+      "brand": "chrysler",
+      "image": "assets/cars/chrysler-crossfire-srt6.webp",
+      "specs": {
+        "Engine": "3.2L Supercharged V6",
+        "Power": "330 bhp (246 kW)",
+        "Torque": "310 lb⋅ft (420 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3239 lbs (1469 kg)"
+      },
+      "power": 330,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 348
+    },
+    {
+      "id": "chrysler-pt-cruiser-gt",
+      "name": "Chrysler PT Cruiser GT",
+      "brand": "chrysler",
+      "image": "assets/cars/chrysler-pt-cruiser-gt.webp",
+      "specs": {
+        "Engine": "2.4L Turbocharged I4",
+        "Power": "220 bhp (164 kW)",
+        "Torque": "244 lb⋅ft (331 N·m)",
+        "Drive type": "Front-Wheel Drive",
+        "Weight": "3104 lbs (1408 kg)"
+      },
+      "power": 220,
+      "drive": "fwd",
+      "topics": [],
+      "width": 840,
+      "height": 415
+    },
+    {
+      "id": "chrysler-vh-valiant-charger-r-t-e49",
+      "name": "Chrysler VH Valiant Charger R/T E49",
+      "brand": "chrysler",
+      "image": "assets/cars/chrysler-vh-valiant-charger-r-t-e49.webp",
+      "specs": {
+        "Engine": "4.3L Naturally-Aspirated I6",
+        "Power": "302 bhp (225 kW)",
+        "Torque": "325 lb⋅ft (441 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3031 lbs (1375 kg)"
+      },
+      "power": 302,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 271
+    },
+    {
+      "id": "citroen-2cv",
+      "name": "Citroen 2CV",
+      "brand": "citroen",
+      "image": "assets/cars/citroen-2cv.webp",
+      "specs": {
+        "Engine": "0.6L Naturally-Aspirated F2",
+        "Power": "33 bhp (25 kW)",
+        "Torque": "31 lb⋅ft (42 N·m)",
+        "Drive type": "Front-Wheel Drive",
+        "Weight": "1504 lbs (682 kg)"
+      },
+      "power": 33,
+      "drive": "fwd",
+      "topics": [
+        "classic"
+      ],
+      "width": 840,
+      "height": 420
+    },
+    {
+      "id": "citroen-bx-4tc",
+      "name": "Citroen BX 4TC",
+      "brand": "citroen",
+      "image": "assets/cars/citroen-bx-4tc.webp",
+      "specs": {
+        "Engine": "2.1L Turbocharged I4",
+        "Power": "197 bhp (147 kW)",
+        "Torque": "217 lb⋅ft (294 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "2822 lbs (1280 kg)"
+      },
+      "power": 197,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 404
+    },
+    {
+      "id": "citroen-c1",
+      "name": "Citroen C1",
+      "brand": "citroen",
+      "image": "assets/cars/citroen-c1.webp",
+      "specs": {
+        "Engine": "1.0L Naturally-Aspirated I3",
+        "Power": "69 bhp (51 kW)",
+        "Torque": "69 lb⋅ft (94 N·m)",
+        "Drive type": "Front-Wheel Drive",
+        "Weight": "1764 lbs (800 kg)"
+      },
+      "power": 69,
+      "drive": "fwd",
+      "topics": [],
+      "width": 840,
+      "height": 407
+    },
+    {
+      "id": "citroen-c4-vts",
+      "name": "Citroen C4 VTS",
+      "brand": "citroen",
+      "image": "assets/cars/citroen-c4-vts.webp",
+      "specs": {
+        "Engine": "1.6L Turbocharged I4",
+        "Power": "150 bhp (112 kW)",
+        "Torque": "177 lb⋅ft (240 N·m)",
+        "Drive type": "Front-Wheel Drive",
+        "Weight": "2802 lbs (1271 kg)"
+      },
+      "power": 150,
+      "drive": "fwd",
+      "topics": [],
+      "width": 840,
+      "height": 368
+    },
+    {
+      "id": "citroen-ds-23",
+      "name": "Citroen DS 23",
+      "brand": "citroen",
+      "image": "assets/cars/citroen-ds-23.webp",
+      "specs": {
+        "Engine": "2.4L Naturally-Aspirated I4",
+        "Power": "113 bhp (84 kW)",
+        "Torque": "134 lb⋅ft (182 N·m)",
+        "Drive type": "Front-Wheel Drive",
+        "Weight": "2954 lbs (1340 kg)"
+      },
+      "power": 113,
+      "drive": "fwd",
+      "topics": [],
+      "width": 840,
+      "height": 335
+    },
+    {
+      "id": "citroen-ds3",
+      "name": "Citroen DS3",
+      "brand": "citroen",
+      "image": "assets/cars/citroen-ds3.webp",
+      "specs": {
+        "Engine": "1.6L Turbocharged I4",
+        "Power": "154 bhp (115 kW)",
+        "Torque": "177 lb⋅ft (240 N·m)",
+        "Drive type": "Front-Wheel Drive",
+        "Weight": "2568 lbs (1165 kg)"
+      },
+      "power": 154,
+      "drive": "fwd",
+      "topics": [],
+      "width": 840,
+      "height": 391
+    },
+    {
+      "id": "dodge-challenger-srt",
+      "name": "Dodge Challenger SRT",
+      "brand": "dodge",
+      "image": "assets/cars/dodge-challenger-srt.webp",
+      "specs": {
+        "Engine": "6.2L Supercharged V8",
+        "Power": "807 bhp (602 kW)",
+        "Torque": "707 lb⋅ft (959 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "4441 lbs (2014 kg)"
+      },
+      "power": 807,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 286
+    },
+    {
+      "id": "dodge-charger-hellcat",
+      "name": "Dodge Charger Hellcat",
+      "brand": "dodge",
+      "image": "assets/cars/dodge-charger-hellcat.webp",
+      "specs": {
+        "Engine": "6.2L Twin-Screw Supercharged V8",
+        "Power": "707 bhp (527 kW)",
+        "Torque": "650 lb⋅ft (881 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "4575 lbs (2075 kg)"
+      },
+      "power": 707,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 273
+    },
+    {
+      "id": "dodge-charger-daytona-hemi",
+      "name": "Dodge Charger Daytona Hemi",
+      "brand": "dodge",
+      "image": "assets/cars/dodge-charger-daytona-hemi.webp",
+      "specs": {
+        "Engine": "7.0L Naturally-Aspirated V8",
+        "Power": "425 bhp (317 kW)",
+        "Torque": "490 lb⋅ft (664 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3875 lbs (1758 kg)"
+      },
+      "power": 425,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 311
+    },
+    {
+      "id": "dodge-charger-rt",
+      "name": "Dodge Charger RT",
+      "brand": "dodge",
+      "image": "assets/cars/dodge-charger-rt.webp",
+      "specs": {
+        "Engine": "7.0L Naturally-Aspirated V8",
+        "Power": "425 bhp (317 kW)",
+        "Torque": "490 lb⋅ft (664 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3671 lbs (1665 kg)"
+      },
+      "power": 425,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 309
+    },
+    {
+      "id": "dodge-dart-gt",
+      "name": "Dodge Dart GT",
+      "brand": "dodge",
+      "image": "assets/cars/dodge-dart-gt.webp",
+      "specs": {
+        "Engine": "2.4L Naturally-Aspirated I4",
+        "Power": "184 bhp (137 kW)",
+        "Torque": "171 lb⋅ft (232 N·m)",
+        "Drive type": "Front-Wheel Drive",
+        "Weight": "3296 lbs (1495 kg)"
+      },
+      "power": 184,
+      "drive": "fwd",
+      "topics": [],
+      "width": 752,
+      "height": 281
+    },
+    {
+      "id": "dodge-durango-srt-hellcat",
+      "name": "Dodge Durango SRT Hellcat",
+      "brand": "dodge",
+      "image": "assets/cars/dodge-durango-srt-hellcat.webp",
+      "specs": {
+        "Engine": "6.2L Supercharged V8",
+        "Power": "710 bhp (529 kW)",
+        "Torque": "645 lb⋅ft (875 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "5534 lbs (2510 kg)"
+      },
+      "power": 710,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 336
+    },
+    {
+      "id": "dodge-stealth-rt-turbo",
+      "name": "Dodge Stealth RT Turbo",
+      "brand": "dodge",
+      "image": "assets/cars/dodge-stealth-rt-turbo.webp",
+      "specs": {
+        "Engine": "3.0L Twin-Turbocharged V6",
+        "Power": "320 bhp (239 kW)",
+        "Torque": "315 lb⋅ft (427 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "3792 lbs (1720 kg)"
+      },
+      "power": 320,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 264
+    },
+    {
+      "id": "dodge-viper-acr",
+      "name": "Dodge Viper ACR",
+      "brand": "dodge",
+      "image": "assets/cars/dodge-viper-acr.webp",
+      "specs": {
+        "Engine": "8.4L Naturally-Aspirated V10",
+        "Power": "645 bhp (481 kW)",
+        "Torque": "600 lb⋅ft (813 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3368 lbs (1528 kg)"
+      },
+      "power": 645,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 271
+    },
+    {
+      "id": "ferrari-250-gt-california",
+      "name": "Ferrari 250 GT California",
+      "brand": "ferrari",
+      "image": "assets/cars/ferrari-250-gt-california.webp",
+      "specs": {
+        "Engine": "3.0L Naturally-Aspirated V12",
+        "Power": "262 bhp (195 kW)",
+        "Torque": "188 lb⋅ft (255 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2315 lbs (1050 kg)"
+      },
+      "power": 262,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 270
+    },
+    {
+      "id": "ferrari-250-gto",
+      "name": "Ferrari 250 GTO",
+      "brand": "ferrari",
+      "image": "assets/cars/ferrari-250-gto.webp",
+      "specs": {
+        "Engine": "3.0L Naturally-Aspirated V12",
+        "Power": "300 bhp (224 kW)",
+        "Torque": "216 lb⋅ft (293 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2299 lbs (1043 kg)"
+      },
+      "power": 300,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 272
+    },
+    {
+      "id": "ferrari-296-gtb",
+      "name": "Ferrari 296 GTB",
+      "brand": "ferrari",
+      "image": "assets/cars/ferrari-296-gtb.webp",
+      "specs": {
+        "Engine": "3.0L Twin-Turbocharged Hybrid V6",
+        "Power": "818 bhp (610 kW)",
+        "Torque": "664 lb⋅ft (900 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3472 lbs (1575 kg)"
+      },
+      "power": 818,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 274
+    },
+    {
+      "id": "ferrari-f8-tributo",
+      "name": "Ferrari F8 Tributo",
+      "brand": "ferrari",
+      "image": "assets/cars/ferrari-f8-tributo.webp",
+      "specs": {
+        "Engine": "3.9L Twin-Turbocharged V8",
+        "Power": "711 bhp (530 kW)",
+        "Torque": "567 lb⋅ft (769 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3232 lbs (1466 kg)"
+      },
+      "power": 711,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 254
+    },
+    {
+      "id": "ferrari-f40",
+      "name": "Ferrari F40",
+      "brand": "ferrari",
+      "image": "assets/cars/ferrari-f40.webp",
+      "specs": {
+        "Engine": "2.9L Twin-Turbocharged V8",
+        "Power": "478 bhp (356 kW)",
+        "Torque": "424 lb⋅ft (575 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2980 lbs (1352 kg)"
+      },
+      "power": 478,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 246
+    },
+    {
+      "id": "ferrari-f50",
+      "name": "Ferrari F50",
+      "brand": "ferrari",
+      "image": "assets/cars/ferrari-f50.webp",
+      "specs": {
+        "Engine": "4.7L Naturally-Aspirated V12",
+        "Power": "513 bhp (383 kW)",
+        "Torque": "347 lb⋅ft (470 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2976 lbs (1350 kg)"
+      },
+      "power": 513,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 238
+    },
+    {
+      "id": "ferrari-fxx",
+      "name": "Ferrari FXX",
+      "brand": "ferrari",
+      "image": "assets/cars/ferrari-fxx.webp",
+      "specs": {
+        "Engine": "6.3L Naturally-Aspirated V12",
+        "Power": "789 bhp (588 kW)",
+        "Torque": "506 lb⋅ft (686 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2731 lbs (1239 kg)"
+      },
+      "power": 789,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 247
+    },
+    {
+      "id": "ferrari-599xx",
+      "name": "Ferrari 599XX",
+      "brand": "ferrari",
+      "image": "assets/cars/ferrari-599xx.webp",
+      "specs": {
+        "Engine": "6.0L Naturally-Aspirated V12",
+        "Power": "691 bhp (515 kW)",
+        "Torque": "479 lb⋅ft (650 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3350 lbs (1520 kg)"
+      },
+      "power": 691,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 264
+    },
+    {
+      "id": "ferrari-fxx-k",
+      "name": "Ferrari FXX K",
+      "brand": "ferrari",
+      "image": "assets/cars/ferrari-fxx-k.webp",
+      "specs": {
+        "Engine": "6.3L Naturally-Aspirated Hybrid V12",
+        "Power": "1036 bhp (773 kW)",
+        "Torque": "664 lb⋅ft (900 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2831 lbs (1284 kg)"
+      },
+      "power": 1036,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 236
+    },
+    {
+      "id": "ferrari-monza-sp2",
+      "name": "Ferrari Monza SP2",
+      "brand": "ferrari",
+      "image": "assets/cars/ferrari-monza-sp2.webp",
+      "specs": {
+        "Engine": "6.5L Naturally-Aspirated V12",
+        "Power": "799 bhp (596 kW)",
+        "Torque": "530 lb⋅ft (719 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3503 lbs (1589 kg)"
+      },
+      "power": 799,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 250
+    },
+    {
+      "id": "ferrari-roma",
+      "name": "Ferrari Roma",
+      "brand": "ferrari",
+      "image": "assets/cars/ferrari-roma.webp",
+      "specs": {
+        "Engine": "3.9L Twin-Turbocharged V8",
+        "Power": "612 bhp (456 kW)",
+        "Torque": "561 lb⋅ft (760 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3627 lbs (1645 kg)"
+      },
+      "power": 612,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 292
+    },
+    {
+      "id": "ford-bronco",
+      "name": "Ford Bronco",
+      "brand": "ford",
+      "image": "assets/cars/ford-bronco.webp",
+      "specs": {
+        "Engine": "2.7L Twin-Turbocharged V6",
+        "Power": "310 bhp (231 kW)",
+        "Torque": "400 lb⋅ft (542 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "4810 lbs (2182 kg)"
+      },
+      "power": 310,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 469
+    },
+    {
+      "id": "ford-bronco-raptor",
+      "name": "Ford Bronco Raptor",
+      "brand": "ford",
+      "image": "assets/cars/ford-bronco-raptor.webp",
+      "specs": {
+        "Engine": "3.0L Twin-Turbocharged V6",
+        "Power": "418 bhp (312 kW)",
+        "Torque": "440 lb⋅ft (597 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "5733 lbs (2600 kg)"
+      },
+      "power": 418,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 425
+    },
+    {
+      "id": "ford-deluxe",
+      "name": "Ford Deluxe",
+      "brand": "ford",
+      "image": "assets/cars/ford-deluxe.webp",
+      "specs": {
+        "Engine": "3.6L Naturally-Aspirated V8",
+        "Power": "65 bhp (48 kW)",
+        "Torque": "130 lb⋅ft (176 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2398 lbs (1088 kg)"
+      },
+      "power": 65,
+      "drive": "rwd",
+      "topics": [
+        "classic"
+      ],
+      "width": 840,
+      "height": 381
+    },
+    {
+      "id": "ford-fiesta-st",
+      "name": "Ford Fiesta ST",
+      "brand": "ford",
+      "image": "assets/cars/ford-fiesta-st.webp",
+      "specs": {
+        "Engine": "1.5L Turbocharged I3",
+        "Power": "197 bhp (147 kW)",
+        "Torque": "236 lb⋅ft (320 N·m)",
+        "Drive type": "Front-Wheel Drive",
+        "Weight": "2657 lbs (1205 kg)"
+      },
+      "power": 197,
+      "drive": "fwd",
+      "topics": [],
+      "width": 840,
+      "height": 352
+    },
+    {
+      "id": "ford-focus-rs",
+      "name": "Ford Focus RS",
+      "brand": "ford",
+      "image": "assets/cars/ford-focus-rs.webp",
+      "specs": {
+        "Engine": "2.5L Turbocharged I5",
+        "Power": "300 bhp (224 kW)",
+        "Torque": "318 lb⋅ft (431 N·m)",
+        "Drive type": "Front-Wheel Drive",
+        "Weight": "3236 lbs (1468 kg)"
+      },
+      "power": 300,
+      "drive": "fwd",
+      "topics": [],
+      "width": 840,
+      "height": 358
+    },
+    {
+      "id": "ford-mustang-dark-horse",
+      "name": "Ford Mustang Dark Horse",
+      "brand": "ford",
+      "image": "assets/cars/ford-mustang-dark-horse.webp",
+      "specs": {
+        "Engine": "5.0L Naturally-Aspirated V8",
+        "Power": "500 bhp (373 kW)",
+        "Torque": "418 lb⋅ft (567 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3949 lbs (1791 kg)"
+      },
+      "power": 500,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 283
+    },
+    {
+      "id": "ford-rs200-evolution",
+      "name": "Ford RS200 Evolution",
+      "brand": "ford",
+      "image": "assets/cars/ford-rs200-evolution.webp",
+      "specs": {
+        "Engine": "2.1L Turbocharged I4",
+        "Power": "506 bhp (377 kW)",
+        "Torque": "401 lb⋅ft (544 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "2464 lbs (1118 kg)"
+      },
+      "power": 506,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 351
+    },
+    {
+      "id": "ford-shelby-gt500",
+      "name": "Ford Shelby GT500",
+      "brand": "ford",
+      "image": "assets/cars/ford-shelby-gt500.webp",
+      "specs": {
+        "Engine": "5.8L Twin-Screw Supercharged V8",
+        "Power": "662 bhp (494 kW)",
+        "Torque": "631 lb⋅ft (856 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3898 lbs (1768 kg)"
+      },
+      "power": 662,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 285
+    },
+    {
+      "id": "ford-svt-cobra-r",
+      "name": "Ford SVT Cobra R",
+      "brand": "ford",
+      "image": "assets/cars/ford-svt-cobra-r.webp",
+      "specs": {
+        "Engine": "5.8L Naturally-Aspirated V8",
+        "Power": "300 bhp (224 kW)",
+        "Torque": "365 lb⋅ft (495 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3226 lbs (1463 kg)"
+      },
+      "power": 300,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 275
+    },
+    {
+      "id": "ford-svt-cobra-r-1993",
+      "name": "Ford SVT Cobra R 1993",
+      "brand": "ford",
+      "image": "assets/cars/ford-svt-cobra-r-1993.webp",
+      "specs": {
+        "Engine": "4.9L Naturally-Aspirated V8",
+        "Power": "235 bhp (175 kW)",
+        "Torque": "280 lb⋅ft (380 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3125 lbs (1417 kg)"
+      },
+      "power": 235,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 279
+    },
+    {
+      "id": "honda-civic-type-r",
+      "name": "Honda Civic Type R",
+      "brand": "honda",
+      "image": "assets/cars/honda-civic-type-r.webp",
+      "specs": {
+        "Engine": "2.0L Turbocharged I4",
+        "Power": "306 bhp (228 kW)",
+        "Torque": "295 lb⋅ft (400 N·m)",
+        "Drive type": "Front-Wheel Drive",
+        "Weight": "3117 lbs (1414 kg)"
+      },
+      "power": 306,
+      "drive": "fwd",
+      "topics": [],
+      "width": 840,
+      "height": 304
+    },
+    {
+      "id": "honda-cr-z",
+      "name": "Honda CR-Z",
+      "brand": "honda",
+      "image": "assets/cars/honda-cr-z.webp",
+      "specs": {
+        "Engine": "1.5L Hybrid I4 <br> 1x Electric Motor",
+        "Power": "122 bhp (91 kW)",
+        "Torque": "128 lb⋅ft (174 N·m)",
+        "Drive type": "Front-Wheel Drive",
+        "Weight": "2654 lbs (1204 kg)"
+      },
+      "power": 122,
+      "drive": "fwd",
+      "topics": [],
+      "width": 840,
+      "height": 347
+    },
+    {
+      "id": "honda-nsx-r",
+      "name": "Honda NSX-R",
+      "brand": "honda",
+      "image": "assets/cars/honda-nsx-r.webp",
+      "specs": {
+        "Engine": "3.2L Naturally-Aspirated V6",
+        "Power": "276 bhp (206 kW)",
+        "Torque": "217 lb⋅ft (294 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2712 lbs (1230 kg)"
+      },
+      "power": 276,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 271
+    },
+    {
+      "id": "honda-prelude-si",
+      "name": "Honda Prelude Si",
+      "brand": "honda",
+      "image": "assets/cars/honda-prelude-si.webp",
+      "specs": {
+        "Engine": "2.3L Naturally-Aspirated I4",
+        "Power": "160 bhp (119 kW)",
+        "Torque": "156 lb⋅ft (212 N·m)",
+        "Drive type": "Front-Wheel Drive",
+        "Weight": "2870 lbs (1302 kg)"
+      },
+      "power": 160,
+      "drive": "fwd",
+      "topics": [],
+      "width": 840,
+      "height": 282
+    },
+    {
+      "id": "honda-ridgeline-baja",
+      "name": "Honda Ridgeline Baja",
+      "brand": "honda",
+      "image": "assets/cars/honda-ridgeline-baja.webp",
+      "specs": {
+        "Engine": "3.5L Naturally-Aspirated V6",
+        "Power": "550 bhp (410 kW)",
+        "Torque": "470 lb⋅ft (637 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "4700 lbs (2132 kg)"
+      },
+      "power": 550,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 339
+    },
+    {
+      "id": "honda-s2000",
+      "name": "Honda S2000",
+      "brand": "honda",
+      "image": "assets/cars/honda-s2000.webp",
+      "specs": {
+        "Engine": "2.0L Naturally-Aspirated I4",
+        "Power": "237 bhp (177 kW)",
+        "Torque": "162 lb⋅ft (220 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2813 lbs (1276 kg)"
+      },
+      "power": 237,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 274
+    },
+    {
+      "id": "lamborghini-aventador-lp-780-4-ultimae",
+      "name": "Lamborghini Aventador LP 780-4 Ultimae",
+      "brand": "lamborghini",
+      "image": "assets/cars/lamborghini-aventador-lp-780-4-ultimae.webp",
+      "specs": {
+        "Engine": "6.5L Naturally-Aspirated V12",
+        "Power": "770 bhp (574 kW)",
+        "Torque": "531 lb⋅ft (720 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "3858 lbs (1750 kg)"
+      },
+      "power": 770,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 250
+    },
+    {
+      "id": "lamborghini-espada-400-gt-1973",
+      "name": "Lamborghini Espada 400 GT 1973",
+      "brand": "lamborghini",
+      "image": "assets/cars/lamborghini-espada-400-gt-1973.webp",
+      "specs": {
+        "Engine": "3.9L Naturally-Aspirated V12",
+        "Power": "350 bhp (261 kW)",
+        "Torque": "290 lb⋅ft (393 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3605 lbs (1635 kg)"
+      },
+      "power": 350,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 316
+    },
+    {
+      "id": "lamborghini-essenza-scv12-2020",
+      "name": "Lamborghini Essenza SCV12 2020",
+      "brand": "lamborghini",
+      "image": "assets/cars/lamborghini-essenza-scv12-2020.webp",
+      "specs": {
+        "Engine": "6.5L Naturally-Aspirated V12",
+        "Power": "818 bhp (610 kW)",
+        "Torque": "590 lb⋅ft (800 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3191 lbs (1447 kg)"
+      },
+      "power": 818,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 246
+    },
+    {
+      "id": "lamborghini-jalpa",
+      "name": "Lamborghini Jalpa",
+      "brand": "lamborghini",
+      "image": "assets/cars/lamborghini-jalpa.webp",
+      "specs": {
+        "Engine": "3.5L Naturally-Aspirated V8",
+        "Power": "255 bhp (190 kW)",
+        "Torque": "231 lb⋅ft (313 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3329 lbs (1510 kg)"
+      },
+      "power": 255,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 253
+    },
+    {
+      "id": "lamborghini-jarama-s",
+      "name": "Lamborghini Jarama S",
+      "brand": "lamborghini",
+      "image": "assets/cars/lamborghini-jarama-s.webp",
+      "specs": {
+        "Engine": "3.9L Naturally-Aspirated V12",
+        "Power": "365 bhp (272 kW)",
+        "Torque": "300 lb⋅ft (407 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3929 lbs (1782 kg)"
+      },
+      "power": 365,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 278
+    },
+    {
+      "id": "lamborghini-miura",
+      "name": "Lamborghini Miura",
+      "brand": "lamborghini",
+      "image": "assets/cars/lamborghini-miura.webp",
+      "specs": {
+        "Engine": "3.9L Naturally-Aspirated V12",
+        "Power": "350 bhp (261 kW)",
+        "Torque": "272 lb⋅ft (369 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2745 lbs (1245 kg)"
+      },
+      "power": 350,
+      "drive": "rwd",
+      "topics": [],
+      "width": 743,
+      "height": 216
+    },
+    {
+      "id": "lamborghini-murcielago",
+      "name": "Lamborghini Murcielago",
+      "brand": "lamborghini",
+      "image": "assets/cars/lamborghini-murcielago.webp",
+      "specs": {
+        "Engine": "6.2L Naturally-Aspirated V12",
+        "Power": "575 bhp (429 kW)",
+        "Torque": "479 lb⋅ft (650 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "4034 lbs (1830 kg)"
+      },
+      "power": 575,
+      "drive": "awd",
+      "topics": [],
+      "width": 759,
+      "height": 249
+    },
+    {
+      "id": "lamborghini-sc20",
+      "name": "Lamborghini SC20",
+      "brand": "lamborghini",
+      "image": "assets/cars/lamborghini-sc20.webp",
+      "specs": {
+        "Engine": "6.5L Naturally-Aspirated V12",
+        "Power": "759 bhp (566 kW)",
+        "Torque": "531 lb⋅ft (720 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "3560 lbs (1615 kg)"
+      },
+      "power": 759,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 240
+    },
+    {
+      "id": "land-rover-defender-110-x",
+      "name": "Land Rover Defender 110 X",
+      "brand": "landrover",
+      "image": "assets/cars/land-rover-defender-110-x.webp",
+      "specs": {
+        "Engine": "3.0L Turbocharged Hybrid I6 (P400)",
+        "Power": "395 bhp (295 kW)",
+        "Torque": "406 lb⋅ft (550 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "5620 lbs (2549 kg)"
+      },
+      "power": 395,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 389
+    },
+    {
+      "id": "land-rover-defender-90",
+      "name": "Land Rover Defender 90",
+      "brand": "landrover",
+      "image": "assets/cars/land-rover-defender-90.webp",
+      "specs": {
+        "Engine": "3.9L Naturally-Aspirated V8",
+        "Power": "182 bhp (136 kW)",
+        "Torque": "232 lb⋅ft (315 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "3902 lbs (1770 kg)"
+      },
+      "power": 182,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 417
+    },
+    {
+      "id": "land-rover-range-rover-sport-svr",
+      "name": "Land Rover Range Rover Sport SVR",
+      "brand": "landrover",
+      "image": "assets/cars/land-rover-range-rover-sport-svr.webp",
+      "specs": {
+        "Engine": "5.0L Supercharged V8",
+        "Power": "550 bhp (410 kW)",
+        "Torque": "502 lb⋅ft (680 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "5148 lbs (2335 kg)"
+      },
+      "power": 550,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 325
+    },
+    {
+      "id": "land-rover-range-rover-supercharged",
+      "name": "Land Rover Range Rover Supercharged",
+      "brand": "landrover",
+      "image": "assets/cars/land-rover-range-rover-supercharged.webp",
+      "specs": {
+        "Engine": "5.0L Supercharged V8",
+        "Power": "510 bhp (380 kW)",
+        "Torque": "461 lb⋅ft (625 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "5612 lbs (2546 kg)"
+      },
+      "power": 510,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 350
+    },
+    {
+      "id": "land-rover-range-rover-velar",
+      "name": "Land Rover Range Rover Velar",
+      "brand": "landrover",
+      "image": "assets/cars/land-rover-range-rover-velar.webp",
+      "specs": {
+        "Engine": "3.0L Supercharged V6",
+        "Power": "375 bhp (280 kW)",
+        "Torque": "332 lb⋅ft (450 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "4676 lbs (2121 kg)"
+      },
+      "power": 375,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 346
+    },
+    {
+      "id": "land-rover-series-iii",
+      "name": "Land Rover Series III",
+      "brand": "landrover",
+      "image": "assets/cars/land-rover-series-iii.webp",
+      "specs": {
+        "Engine": "2.2L Naturally-Aspirated I4",
+        "Power": "69 bhp (51 kW)",
+        "Torque": "120 lb⋅ft (163 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "3097 lbs (1405 kg)"
+      },
+      "power": 69,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 449
+    },
+    {
+      "id": "mazda-mazdaspeed-3",
+      "name": "Mazda Mazdaspeed 3",
+      "brand": "mazda",
+      "image": "assets/cars/mazda-mazdaspeed-3.webp",
+      "specs": {
+        "Engine": "2.3L Turbocharged I4",
+        "Power": "263 bhp (196 kW)",
+        "Torque": "280 lb⋅ft (380 N·m)",
+        "Drive type": "Front-Wheel Drive",
+        "Weight": "3221 lbs (1461 kg)"
+      },
+      "power": 263,
+      "drive": "fwd",
+      "topics": [],
+      "width": 840,
+      "height": 305
+    },
+    {
+      "id": "mazda-miata",
+      "name": "Mazda Miata",
+      "brand": "mazda",
+      "image": "assets/cars/mazda-miata.webp",
+      "specs": {
+        "Engine": "1.8L Naturally-Aspirated I4",
+        "Power": "128 bhp (95 kW)",
+        "Torque": "110 lb⋅ft (149 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2330 lbs (1057 kg)"
+      },
+      "power": 128,
+      "drive": "rwd",
+      "topics": [
+        "classic"
+      ],
+      "width": 840,
+      "height": 367
+    },
+    {
+      "id": "mazda-rx-7",
+      "name": "Mazda RX-7",
+      "brand": "mazda",
+      "image": "assets/cars/mazda-rx-7.webp",
+      "specs": {
+        "Engine": "1.3L Twin-Turbocharged 2-Rotor Rotary",
+        "Power": "280 bhp (209 kW)",
+        "Torque": "231 lb⋅ft (313 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2800 lbs (1270 kg)"
+      },
+      "power": 280,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 286
+    },
+    {
+      "id": "mazda-rx-8",
+      "name": "Mazda RX-8",
+      "brand": "mazda",
+      "image": "assets/cars/mazda-rx-8.webp",
+      "specs": {
+        "Engine": "1.3L Naturally-Aspirated 2-Rotor Rotary",
+        "Power": "232 bhp (173 kW)",
+        "Torque": "159 lb⋅ft (216 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3065 lbs (1390 kg)"
+      },
+      "power": 232,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 292
+    },
+    {
+      "id": "mazda-savanna",
+      "name": "Mazda Savanna",
+      "brand": "mazda",
+      "image": "assets/cars/mazda-savanna.webp",
+      "specs": {
+        "Engine": "1.3L Turbocharged 2-Rotor Rotary",
+        "Power": "200 bhp (149 kW)",
+        "Torque": "196 lb⋅ft (266 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2981 lbs (1352 kg)"
+      },
+      "power": 200,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 287
+    },
+    {
+      "id": "mitsubishi-colt-ralliart",
+      "name": "Mitsubishi Colt Ralliart",
+      "brand": "mitsubishi",
+      "image": "assets/cars/mitsubishi-colt-ralliart.webp",
+      "specs": {
+        "Engine": "1.5L Turbocharged I4",
+        "Power": "147 bhp (110 kW)",
+        "Torque": "155 lb⋅ft (210 N·m)",
+        "Drive type": "Front-Wheel Drive",
+        "Weight": "2337 lbs (1060 kg)"
+      },
+      "power": 147,
+      "drive": "fwd",
+      "topics": [],
+      "width": 840,
+      "height": 397
+    },
+    {
+      "id": "mitsubishi-eclipse-gt",
+      "name": "Mitsubishi Eclipse GT",
+      "brand": "mitsubishi",
+      "image": "assets/cars/mitsubishi-eclipse-gt.webp",
+      "specs": {
+        "Engine": "3.8L Naturally-Aspirated V6",
+        "Power": "263 bhp (196 kW)",
+        "Torque": "260 lb⋅ft (353 N·m)",
+        "Drive type": "Front-Wheel Drive",
+        "Weight": "3470 lbs (1574 kg)"
+      },
+      "power": 263,
+      "drive": "fwd",
+      "topics": [],
+      "width": 840,
+      "height": 326
+    },
+    {
+      "id": "mitsubishi-fto-gp-version-r",
+      "name": "Mitsubishi FTO GP Version R",
+      "brand": "mitsubishi",
+      "image": "assets/cars/mitsubishi-fto-gp-version-r.webp",
+      "specs": {
+        "Engine": "2.0L Naturally-Aspirated V6",
+        "Power": "197 bhp (147 kW)",
+        "Torque": "147 lb⋅ft (199 N·m)",
+        "Drive type": "Front-Wheel Drive",
+        "Weight": "2535 lbs (1150 kg)"
+      },
+      "power": 197,
+      "drive": "fwd",
+      "topics": [],
+      "width": 840,
+      "height": 307
+    },
+    {
+      "id": "mitsubishi-gto",
+      "name": "Mitsubishi GTO",
+      "brand": "mitsubishi",
+      "image": "assets/cars/mitsubishi-gto.webp",
+      "specs": {
+        "Engine": "3.0L Twin-Turbocharged V6",
+        "Power": "320 bhp (239 kW)",
+        "Torque": "315 lb⋅ft (427 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "3704 lbs (1680 kg)"
+      },
+      "power": 320,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 268
+    },
+    {
+      "id": "mitsubishi-lancer-evolution-x",
+      "name": "Mitsubishi Lancer Evolution X",
+      "brand": "mitsubishi",
+      "image": "assets/cars/mitsubishi-lancer-evolution-x.webp",
+      "specs": {
+        "Engine": "2.0L Turbocharged I4",
+        "Power": "305 bhp (227 kW)",
+        "Torque": "314 lb⋅ft (426 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "3395 lbs (1540 kg)"
+      },
+      "power": 305,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 312
+    },
+    {
+      "id": "mitsubishi-starion-esi-r",
+      "name": "Mitsubishi Starion ESI-R",
+      "brand": "mitsubishi",
+      "image": "assets/cars/mitsubishi-starion-esi-r.webp",
+      "specs": {
+        "Engine": "2.6L Turbocharged I4",
+        "Power": "188 bhp (140 kW)",
+        "Torque": "233 lb⋅ft (316 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3087 lbs (1400 kg)"
+      },
+      "power": 188,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 295
+    },
+    {
+      "id": "nissan-fairlady",
+      "name": "Nissan Fairlady",
+      "brand": "nissan",
+      "image": "assets/cars/nissan-fairlady.webp",
+      "specs": {
+        "Engine": "2.0L Naturally-Aspirated I6",
+        "Power": "160 bhp (119 kW)",
+        "Torque": "133 lb⋅ft (180 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2308 lbs (1047 kg)"
+      },
+      "power": 160,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 282
+    },
+    {
+      "id": "nissan-gt-r-r32",
+      "name": "Nissan GT-R R32",
+      "brand": "nissan",
+      "image": "assets/cars/nissan-gt-r-r32.webp",
+      "specs": {
+        "Engine": "2.6L Twin-Turbocharged I6",
+        "Power": "276 bhp (206 kW)",
+        "Torque": "261 lb⋅ft (354 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "3307 lbs (1500 kg)"
+      },
+      "power": 276,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 277
+    },
+    {
+      "id": "nissan-gt-r-r35",
+      "name": "Nissan GT-R R35",
+      "brand": "nissan",
+      "image": "assets/cars/nissan-gt-r-r35.webp",
+      "specs": {
+        "Engine": "3.8L Twin-Turbocharged V6",
+        "Power": "542 bhp (404 kW)",
+        "Torque": "466 lb⋅ft (632 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "3887 lbs (1763 kg)"
+      },
+      "power": 542,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 280
+    },
+    {
+      "id": "nissan-nismo-gt-r-lm",
+      "name": "Nissan Nismo GT-R LM",
+      "brand": "nissan",
+      "image": "assets/cars/nissan-nismo-gt-r-lm.webp",
+      "specs": {
+        "Engine": "2.6L Twin-Turbocharged I6",
+        "Power": "300 bhp (224 kW)",
+        "Torque": "275 lb⋅ft (373 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3483 lbs (1580 kg)"
+      },
+      "power": 300,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 268
+    },
+    {
+      "id": "nissan-r390",
+      "name": "Nissan R390",
+      "brand": "nissan",
+      "image": "assets/cars/nissan-r390.webp",
+      "specs": {
+        "Engine": "3.5L Twin-Turbocharged V8",
+        "Power": "550 bhp (410 kW)",
+        "Torque": "471 lb⋅ft (639 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2264 lbs (1027 kg)"
+      },
+      "power": 550,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 234
+    },
+    {
+      "id": "nissan-silvia",
+      "name": "Nissan Silvia",
+      "brand": "nissan",
+      "image": "assets/cars/nissan-silvia.webp",
+      "specs": {
+        "Engine": "1.6L Naturally-Aspirated I4",
+        "Power": "88 bhp (66 kW)",
+        "Torque": "97 lb⋅ft (132 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2161 lbs (980 kg)"
+      },
+      "power": 88,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 280
+    },
+    {
+      "id": "nissan-skyline-gt-r-87",
+      "name": "Nissan Skyline GT-R 87",
+      "brand": "nissan",
+      "image": "assets/cars/nissan-skyline-gt-r-87.webp",
+      "specs": {
+        "Engine": "2.0L Turbocharged I6",
+        "Power": "206 bhp (154 kW)",
+        "Torque": "181 lb⋅ft (245 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2965 lbs (1345 kg)"
+      },
+      "power": 206,
+      "drive": "rwd",
+      "topics": [],
+      "width": 692,
+      "height": 234
+    },
+    {
+      "id": "nissan-z",
+      "name": "Nissan Z",
+      "brand": "nissan",
+      "image": "assets/cars/nissan-z.webp",
+      "specs": {
+        "Engine": "3.0L Twin-Turbocharged V6 (VR30DDTT)",
+        "Power": "400 bhp (298 kW)",
+        "Torque": "350 lb⋅ft (475 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3536 lbs (1604 kg)"
+      },
+      "power": 400,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 310
+    },
+    {
+      "id": "nissan-z-nismo",
+      "name": "Nissan Z Nismo",
+      "brand": "nissan",
+      "image": "assets/cars/nissan-z-nismo.webp",
+      "specs": {
+        "Engine": "3.0L Twin-Turbocharged V6 (VR30DDTT)",
+        "Power": "420 bhp (313 kW)",
+        "Torque": "384 lb⋅ft (521 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3704 lbs (1680 kg)"
+      },
+      "power": 420,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 294
+    },
+    {
+      "id": "porsche-356",
+      "name": "Porsche 356",
+      "brand": "porsche",
+      "image": "assets/cars/porsche-356.webp",
+      "specs": {
+        "Engine": "2.3L Naturally-Aspirated F4",
+        "Power": "220 bhp (164 kW)",
+        "Torque": "181 lb⋅ft (245 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2150 lbs (975 kg)"
+      },
+      "power": 220,
+      "drive": "rwd",
+      "topics": [
+        "classic"
+      ],
+      "width": 840,
+      "height": 313
+    },
+    {
+      "id": "porsche-550a-spyder",
+      "name": "Porsche 550A Spyder",
+      "brand": "porsche",
+      "image": "assets/cars/porsche-550a-spyder.webp",
+      "specs": {
+        "Engine": "1.5L Naturally-Aspirated F4",
+        "Power": "109 bhp (81 kW)",
+        "Torque": "95 lb⋅ft (129 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "1510 lbs (685 kg)"
+      },
+      "power": 109,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 263
+    },
+    {
+      "id": "porsche-911-gt2-rs",
+      "name": "Porsche 911 GT2 RS",
+      "brand": "porsche",
+      "image": "assets/cars/porsche-911-gt2-rs.webp",
+      "specs": {
+        "Engine": "3.8L Twin-Turbocharged F6",
+        "Power": "691 bhp (515 kW)",
+        "Torque": "553 lb⋅ft (750 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3197 lbs (1450 kg)"
+      },
+      "power": 691,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 281
+    },
+    {
+      "id": "porsche-911-gt3-rs",
+      "name": "Porsche 911 GT3 RS",
+      "brand": "porsche",
+      "image": "assets/cars/porsche-911-gt3-rs.webp",
+      "specs": {
+        "Engine": "4.0L Naturally-Aspirated F6",
+        "Power": "518 bhp (386 kW)",
+        "Torque": "343 lb⋅ft (465 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3197 lbs (1450 kg)"
+      },
+      "power": 518,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 278
+    },
+    {
+      "id": "porsche-911-turbo",
+      "name": "Porsche 911 Turbo",
+      "brand": "porsche",
+      "image": "assets/cars/porsche-911-turbo.webp",
+      "specs": {
+        "Engine": "3.3L Turbocharged F6",
+        "Power": "296 bhp (221 kW)",
+        "Torque": "304 lb⋅ft (412 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2866 lbs (1300 kg)"
+      },
+      "power": 296,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 294
+    },
+    {
+      "id": "porsche-911-turbo-s",
+      "name": "Porsche 911 Turbo S",
+      "brand": "porsche",
+      "image": "assets/cars/porsche-911-turbo-s.webp",
+      "specs": {
+        "Engine": "3.7L Twin-Turbocharged F6",
+        "Power": "641 bhp (478 kW)",
+        "Torque": "590 lb⋅ft (800 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "3450 lbs (1565 kg)"
+      },
+      "power": 641,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 289
+    },
+    {
+      "id": "porsche-macan-turbo",
+      "name": "Porsche Macan Turbo",
+      "brand": "porsche",
+      "image": "assets/cars/porsche-macan-turbo.webp",
+      "specs": {
+        "Engine": "2.9L Twin-Turbocharged V6",
+        "Power": "434 bhp (324 kW)",
+        "Torque": "405 lb⋅ft (549 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "4277 lbs (1940 kg)"
+      },
+      "power": 434,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 330
+    },
+    {
+      "id": "toyota-ae86",
+      "name": "Toyota AE86",
+      "brand": "toyota",
+      "image": "assets/cars/toyota-ae86.webp",
+      "specs": {
+        "Engine": "1.6L Naturally-Aspirated I4",
+        "Power": "128 bhp (95 kW)",
+        "Torque": "110 lb⋅ft (149 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2094 lbs (950 kg)"
+      },
+      "power": 128,
+      "drive": "rwd",
+      "topics": [
+        "initial-d"
+      ],
+      "width": 840,
+      "height": 293
+    },
+    {
+      "id": "toyota-celica-gt-four-rc-st185",
+      "name": "Toyota Celica GT-Four RC ST185",
+      "brand": "toyota",
+      "image": "assets/cars/toyota-celica-gt-four-rc-st185.webp",
+      "specs": {
+        "Engine": "2.0L Turbocharged I4",
+        "Power": "232 bhp (173 kW)",
+        "Torque": "224 lb⋅ft (304 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "3219 lbs (1460 kg)"
+      },
+      "power": 232,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 287
+    },
+    {
+      "id": "toyota-celica-gt-four-st205",
+      "name": "Toyota Celica GT-Four ST205",
+      "brand": "toyota",
+      "image": "assets/cars/toyota-celica-gt-four-st205.webp",
+      "specs": {
+        "Engine": "2.0L Turbocharged I4",
+        "Power": "255 bhp (190 kW)",
+        "Torque": "224 lb⋅ft (304 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "3175 lbs (1440 kg)"
+      },
+      "power": 255,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 269
+    },
+    {
+      "id": "toyota-gr86",
+      "name": "Toyota GR86",
+      "brand": "toyota",
+      "image": "assets/cars/toyota-gr86.webp",
+      "specs": {
+        "Engine": "2.4L Naturally-Aspirated F4 (FA24D)",
+        "Power": "228 bhp (170 kW)",
+        "Torque": "184 lb⋅ft (249 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2811 lbs (1275 kg)"
+      },
+      "power": 228,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 295
+    },
+    {
+      "id": "toyota-mr2",
+      "name": "Toyota MR2",
+      "brand": "toyota",
+      "image": "assets/cars/toyota-mr2.webp",
+      "specs": {
+        "Engine": "2.0L Turbocharged I4",
+        "Power": "241 bhp (180 kW)",
+        "Torque": "228 lb⋅ft (309 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2657 lbs (1205 kg)"
+      },
+      "power": 241,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 278
+    },
+    {
+      "id": "toyota-sports-800",
+      "name": "Toyota Sports 800",
+      "brand": "toyota",
+      "image": "assets/cars/toyota-sports-800.webp",
+      "specs": {
+        "Engine": "0.8L Naturally-Aspirated F2",
+        "Power": "44 bhp (33 kW)",
+        "Torque": "49 lb⋅ft (66 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "1329 lbs (603 kg)"
+      },
+      "power": 44,
+      "drive": "rwd",
+      "topics": [
+        "classic"
+      ],
+      "width": 840,
+      "height": 343
+    },
+    {
+      "id": "toyota-supra",
+      "name": "Toyota Supra",
+      "brand": "toyota",
+      "image": "assets/cars/toyota-supra.webp",
+      "specs": {
+        "Engine": "3.0L Twin-Turbocharged I6",
+        "Power": "320 bhp (239 kW)",
+        "Torque": "315 lb⋅ft (427 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3329 lbs (1510 kg)"
+      },
+      "power": 320,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 271
+    },
+    {
+      "id": "vauxhall-astra-vxr",
+      "name": "Vauxhall Astra VXR",
+      "brand": "vauxhall",
+      "image": "assets/cars/vauxhall-astra-vxr.webp",
+      "specs": {
+        "Engine": "2.0L Turbocharged I4",
+        "Power": "276 bhp (206 kW)",
+        "Torque": "293 lb⋅ft (397 N·m)",
+        "Drive type": "Front-Wheel Drive",
+        "Weight": "3252 lbs (1475 kg)"
+      },
+      "power": 276,
+      "drive": "fwd",
+      "topics": [],
+      "width": 840,
+      "height": 294
+    },
+    {
+      "id": "vauxhall-corsa-vxr",
+      "name": "Vauxhall Corsa VXR",
+      "brand": "vauxhall",
+      "image": "assets/cars/vauxhall-corsa-vxr.webp",
+      "specs": {
+        "Engine": "1.6L Turbocharged I4",
+        "Power": "189 bhp (141 kW)",
+        "Torque": "192 lb⋅ft (260 N·m)",
+        "Drive type": "Front-Wheel Drive",
+        "Weight": "2652 lbs (1203 kg)"
+      },
+      "power": 189,
+      "drive": "fwd",
+      "topics": [],
+      "width": 840,
+      "height": 381
+    },
+    {
+      "id": "vauxhall-lotus-carlton",
+      "name": "Vauxhall Lotus Carlton",
+      "brand": "vauxhall",
+      "image": "assets/cars/vauxhall-lotus-carlton.webp",
+      "specs": {
+        "Engine": "3.6L Twin-Turbocharged I6",
+        "Power": "379 bhp (283 kW)",
+        "Torque": "419 lb⋅ft (568 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3641 lbs (1652 kg)"
+      },
+      "power": 379,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 286
+    },
+    {
+      "id": "vauxhall-monaro-vxr",
+      "name": "Vauxhall Monaro VXR",
+      "brand": "vauxhall",
+      "image": "assets/cars/vauxhall-monaro-vxr.webp",
+      "specs": {
+        "Engine": "6.0L Naturally-Aspirated V8",
+        "Power": "398 bhp (297 kW)",
+        "Torque": "391 lb⋅ft (530 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "3697 lbs (1677 kg)"
+      },
+      "power": 398,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 284
+    },
+    {
+      "id": "vauxhall-vx220-turbo",
+      "name": "Vauxhall VX220 Turbo",
+      "brand": "vauxhall",
+      "image": "assets/cars/vauxhall-vx220-turbo.webp",
+      "specs": {
+        "Engine": "2.0L Turbocharged I4",
+        "Power": "197 bhp (147 kW)",
+        "Torque": "179 lb⋅ft (243 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2050 lbs (930 kg)"
+      },
+      "power": 197,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 318
+    },
+    {
+      "id": "volkswagen-beetle",
+      "name": "Volkswagen Beetle",
+      "brand": "volkswagen",
+      "image": "assets/cars/volkswagen-beetle.webp",
+      "specs": {
+        "Engine": "1.2L Naturally-Aspirated F4",
+        "Power": "40 bhp (30 kW)",
+        "Torque": "65 lb⋅ft (88 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "1760 lbs (798 kg)"
+      },
+      "power": 40,
+      "drive": "rwd",
+      "topics": [
+        "classic"
+      ],
+      "width": 840,
+      "height": 351
+    },
+    {
+      "id": "volkswagen-bora-vr6",
+      "name": "Volkswagen Bora VR6",
+      "brand": "volkswagen",
+      "image": "assets/cars/volkswagen-bora-vr6.webp",
+      "specs": {
+        "Engine": "2.8L Naturally-Aspirated V6",
+        "Power": "201 bhp (150 kW)",
+        "Torque": "199 lb⋅ft (270 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "3212 lbs (1457 kg)"
+      },
+      "power": 201,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 327
+    },
+    {
+      "id": "volkswagen-corrado-vr6",
+      "name": "Volkswagen Corrado VR6",
+      "brand": "volkswagen",
+      "image": "assets/cars/volkswagen-corrado-vr6.webp",
+      "specs": {
+        "Engine": "2.8L Naturally-Aspirated V6",
+        "Power": "178 bhp (133 kW)",
+        "Torque": "177 lb⋅ft (240 N·m)",
+        "Drive type": "Front-Wheel Drive",
+        "Weight": "2734 lbs (1240 kg)"
+      },
+      "power": 178,
+      "drive": "fwd",
+      "topics": [],
+      "width": 840,
+      "height": 298
+    },
+    {
+      "id": "volkswagen-golf-r",
+      "name": "Volkswagen Golf R",
+      "brand": "volkswagen",
+      "image": "assets/cars/volkswagen-golf-r.webp",
+      "specs": {
+        "Engine": "2.0L Turbocharged I4",
+        "Power": "315 bhp (235 kW)",
+        "Torque": "280 lb⋅ft (380 N·m)",
+        "Drive type": "All-Wheel Drive",
+        "Weight": "3417 lbs (1550 kg)"
+      },
+      "power": 315,
+      "drive": "awd",
+      "topics": [],
+      "width": 840,
+      "height": 323
+    },
+    {
+      "id": "volkswagen-karmann-ghia",
+      "name": "Volkswagen Karmann Ghia",
+      "brand": "volkswagen",
+      "image": "assets/cars/volkswagen-karmann-ghia.webp",
+      "specs": {
+        "Engine": "1.5L Naturally-Aspirated F4",
+        "Power": "53 bhp (40 kW)",
+        "Torque": "78 lb⋅ft (106 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "1852 lbs (840 kg)"
+      },
+      "power": 53,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 341
+    },
+    {
+      "id": "volkswagen-santana",
+      "name": "Volkswagen Santana",
+      "brand": "volkswagen",
+      "image": "assets/cars/volkswagen-santana.webp",
+      "specs": {
+        "Engine": "1.8L Naturally-Aspirated I4 (EA113)",
+        "Power": "94 bhp (70 kW)",
+        "Torque": "107 lb⋅ft (145 N·m)",
+        "Drive type": "Front-Wheel Drive",
+        "Weight": "2425 lbs (1100 kg)"
+      },
+      "power": 94,
+      "drive": "fwd",
+      "topics": [],
+      "width": 840,
+      "height": 355
+    },
+    {
+      "id": "volkswagen-sp-2",
+      "name": "Volkswagen SP-2",
+      "brand": "volkswagen",
+      "image": "assets/cars/volkswagen-sp-2.webp",
+      "specs": {
+        "Engine": "1.7L Naturally-Aspirated F4",
+        "Power": "75 bhp (56 kW)",
+        "Torque": "96 lb⋅ft (130 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "1962 lbs (890 kg)"
+      },
+      "power": 75,
+      "drive": "rwd",
+      "topics": [],
+      "width": 840,
+      "height": 362
+    },
+    {
+      "id": "volkswagen-type-2-deluxe",
+      "name": "Volkswagen Type 2 Deluxe",
+      "brand": "volkswagen",
+      "image": "assets/cars/volkswagen-type-2-deluxe.webp",
+      "specs": {
+        "Engine": "1.5L Naturally-Aspirated F4",
+        "Power": "50 bhp (37 kW)",
+        "Torque": "82 lb⋅ft (111 N·m)",
+        "Drive type": "Rear-Wheel Drive",
+        "Weight": "2513 lbs (1140 kg)"
+      },
+      "power": 50,
+      "drive": "rwd",
+      "topics": [
+        "classic"
+      ],
+      "width": 840,
+      "height": 385
+    },
+    {
+      "id": "bulldozer-excavator",
+      "name": "Bulldozer Excavator",
+      "brand": "special",
+      "image": "assets/cars/bulldozer-excavator.webp",
+      "specs": {
+        "Status": "Not for Sale"
+      },
+      "power": null,
+      "drive": "other",
+      "topics": [
+        "special"
+      ],
+      "width": 840,
+      "height": 470
+    }
+  ],
+  "specificationNotes": [],
+  "editorialSources": [
+    {
+      "topic": "initial-d",
+      "cars": [
+        "toyota-ae86"
+      ],
+      "url": "https://licensing.kodansha.com/title/initial-d/",
+      "note": "Confirms the AE86 association; catalogue specifications do not represent a screen-used or modified car."
+    }
+  ]
+}
